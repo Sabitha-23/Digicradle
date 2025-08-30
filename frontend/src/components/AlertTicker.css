@@ -1,0 +1,45 @@
+.alert-bar {
+  background: #ffef96;
+  border-bottom: 2px solid #f5c518;
+  color: #333;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.alert-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 15s linear infinite;
+}
+
+.alert-track.paused {
+  animation-play-state: paused;
+}
+
+.alert-message {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.alert-btn {
+  position: absolute;
+  right: 10px;
+  padding: 3px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  background: #f5c518;
+  border-radius: 5px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,14 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./Home.css";
 
 function Home() {
   return (
-    <div className="container">
-      <h1>Welcome to DigiCradle</h1>
-      <p>Connecting your village, town, or city in one app!</p>
-      <Link to="/login">
-        <button className="btn">Go to Login</button>
-      </Link>
+    <div className="home-container">
+      <h1>Welcome to Digicradle</h1>
+      
     </div>
   );
 }

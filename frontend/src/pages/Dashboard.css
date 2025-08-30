@@ -1,0 +1,64 @@
+/* Header bar */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4cafef;
+  color: white;
+  padding: 12px 20px;
+}
+
+.app-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Three dot menu */
+.menu-container {
+  position: relative;
+}
+
+.menu-btn {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background: white;
+  color: black;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  list-style: none;
+  padding: 8px 0;
+  width: 180px;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: #f0f0f0;
+}
+
+/* Logout button */
+.logout-btn {
+  background: #ff5252;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #e84141;
+}

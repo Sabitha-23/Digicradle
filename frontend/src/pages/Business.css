@@ -1,0 +1,60 @@
+.business-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.post-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.post-box textarea {
+  min-height: 80px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.post-box button {
+  align-self: flex-end;
+  padding: 8px 14px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.posts-list .post {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.post-header {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
